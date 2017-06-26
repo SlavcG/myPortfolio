@@ -6,7 +6,7 @@
   <% end %>
 
   <div class="form-group">
-    <%= f.text_field :title, class: 'form-control', placeholder: 'Title' %>
+    <%= f.text_field :title, class: 'form-control', placeholder: "Title" %>
   </div>
 
   <div class="form-group">
@@ -26,14 +26,14 @@
     <%= f.label :status, 'Draft' %>
 
     <%= f.radio_button :status, 'published' %>
-    <%= f.label :status, 'Published' %>    
+    <%= f.label :status, 'Published' %>
   </div>
 
   <div class="form-group">
-    <%= f.text_area :body, class: 'form-control', rows: 15, placeholder: 'Content' %>
+    <%= f.text_area :body, class: 'form-control', rows: 15, placeholder: "Content" %>
   </div>
 
   <div class="form-group">
-    <%= f.submit 'Submit', class: 'btn btn-primary' %>
+    <%= f.submit "Submit", class: 'btn btn-primary' %>
   </div>
 <% end %>
